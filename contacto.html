@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Contacto</title>
+<link rel="stylesheet" href="css/style.css"/>
+<script defer src="js/script.js"></script>
+</head>
+<body>
+<header>
+  <nav>
+    <a class="logo" href="index.html"><span>LAS DROGAS</span>
+    </a>
+    <div class="menu">
+     <a href="index.html">Inicio</a>
+<a href="temasdedrogas.html">Temas De Drogas</a>
+<a href="efectodedrogas.html">Efectos De Las Drogas</a>
+<a href="tiposdedrogas.html">Tipos De Drogas</a>
+<a href="prevencionyeducacion.html">Prevención Y Educación</a>
+<a href="tratamientosyrehabilitacion.html">Tratamientos Y Rehabilitación</a>
+<a href="cuandoseretiran.html">¿Qué sucede cuando se retiran las drogas adictivas?</a>
+<a href="experimentardrogas.html">¿Por qué es peligroso incluso el “experimentar” con las drogas?</a>
+<a href="deberfamiliar.html">¿Qué debe hacer la familia por una persona que se convierte en adicto?</a>
+    </div>
+  </nav>
+</header>
+<main>
+
+ <h1>Formulario sobre las Drogas</h1>
+
+<form action="#" method="post">
+    <!-- Nombre -->
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <!-- Edad -->
+  <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" min="10" max="100" required>
+
+    <!-- Conocimiento -->
+    <label for="conocimiento">¿Qué tanto conoces sobre las drogas?</label>
+  <select id="conocimiento" name="conocimiento">
+      <option value="nada">Nada</option>
+      <option value="poco">Poco</option>
+      <option value="regular">Regular</option>
+      <option value="mucho">Mucho</option>
+  </select>
+
+    <!-- Opinión -->
+    <label for="opinion">En tu opinión, ¿cuáles son las principales causas del consumo de drogas?</label>
+    <textarea id="opinion" name="opinion" rows="4"></textarea>
+
+    <!-- Prevención -->
+  <label>¿Has recibido alguna charla o taller de prevención?</label>
+  <label for="si">Sí 
+    <input type="radio" name="radio" id="radio" value="radio">
+  </label>
+  <label for="no">No
+    <input type="radio" name="radio2" id="radio2" value="radio2">
+  </label>
+
+    <!-- Comentarios -->
+  <label for="comentarios">Comentarios adicionales:</label>
+    <textarea id="comentarios" name="comentarios" rows="3"></textarea>
+
+    <!-- Botón -->
+  <button type="submit" class="boton">Enviar</button>
+</form>
+
+<p><a href="index.html">Volver al Inicio</a></p><br>
+</body>
+</html>
