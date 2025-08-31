@@ -1,0 +1,90 @@
+:root{
+  --primary:#1d4ed8;
+  --accent:#22c55e;
+  --dark:#0f172a;
+  --light:#f8fafc;
+}
+*{
+	box-sizing: border-box;
+	color: #000;
+	background-color: #0C9;
+}
+body{
+  margin:0;
+  font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,'Noto Sans',sans-serif;
+  line-height:1.6;
+  color:#111827;
+  background:#ffffff;
+}
+header{
+  background:linear-gradient(90deg,var(--primary),var(--accent));
+  color:white;
+  padding: 0.5rem 1rem;
+  position: sticky;
+  top:0;
+  z-index:1000;
+}
+nav{
+  display:flex;
+  align-items:center;
+  gap:1rem;
+  max-width:1100px;
+  margin:0 auto;
+}
+nav a.logo{
+  display:flex;align-items:center;gap:.5rem;text-decoration:none;color:white;font-weight:700;
+}
+nav img{height:48px;width:48px}
+.menu{
+  display:flex;flex-wrap:wrap;gap:.5rem;margin-left:auto;
+}
+.menu a{
+  color:white;text-decoration:none;padding:.5rem .75rem;border-radius:.75rem;opacity:.95
+}
+.menu a:hover,.menu a.active{background:rgba(255,255,255,.18);opacity:1}
+main{max-width:1100px;margin:1rem auto;padding:0 1rem;}
+.hero{
+  display:grid;grid-template-columns:1.2fr 1fr;gap:1rem;align-items:center;
+  background:#f1f5f9;border:1px solid #e2e8f0;border-radius:1rem;padding:1rem;
+}
+.hero img{width:100%;border-radius:1rem;box-shadow:0 10px 30px rgba(0,0,0,.06)}
+.card{
+  background:#ffffff;border:1px solid #e5e7eb;border-radius:1rem;padding:1rem;box-shadow:0 10px 20px rgba(0,0,0,.04);margin:1rem 0;
+}
+.grid{display:grid;gap:1rem}
+.grid.cols-3{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));}
+footer{
+  margin-top:2rem;
+  background:#0f172a;color:#e2e8f0;padding:1.5rem;
+}
+footer a{color:#93c5fd}
+table{width:100%;border-collapse:collapse}
+th,td{padding:.6rem;border-bottom:1px solid #e5e7eb;text-align:left}
+thead th{background:#f8fafc;border-bottom:2px solid #e5e7eb}
+ul,ol{padding-left:1.25rem}
+form label{display:block;margin-top:.75rem;font-weight:600}
+input,select,textarea{
+	width: 50%;
+
+
+
+
+padding:.6rem;					border: 1px solid #d1d5db;
+
+
+
+
+border-radius:.6rem; 					font-size: 16px;
+}
+button{padding:.6rem 1rem;border:none;border-radius:.75rem;background:var(--primary);color:white;font-weight:600;cursor:pointer}
+.anchor{scroll-margin-top:90px}
+.small{font-size:.9rem;color:#374151}
+figure{margin:0}
+figure img{width:100%;border-radius:.75rem}
+.badge{display:inline-block;padding:.25rem .5rem;border-radius:.5rem;background:#dbeafe;color:#1e40af;font-size:.75rem}
+.hero div h1 em {
+	color: #336699;
+}
+.hero div h1 em {
+	color: #000000;
+}
